@@ -29,3 +29,42 @@ body{
     background-color: cadetblue;
     border-radius: .3rem;
 }
+
+.icons{
+    border: 2px solid red;
+    margin-right: 60px;
+}
+
+.sub-menu-1{
+    display: none;
+}
+
+.Menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: aquamarine;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.Menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+
+.Menu-bar ul li:hover .sub-menu-1 ul li:hover{
+    color: rgb(83, 137, 138);
+    background: transparent;
+}
+
+.sub-menu-2{
+    display: none;
+}
+
+.hover-me:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    background-color: aquamarine;
+    margin-top: -40px;
+    margin-left: 100px;
+}
