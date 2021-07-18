@@ -1,0 +1,31 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./image1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+}
+.Menu-bar{
+    background-color: aquamarine;
+    text-align: center;
+}
+.Menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    /* color: #fff; */
+}
+.Menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    cursor: pointer;
+}
+.Menu-bar ul li:hover, :nth-last-child(8){
+    background-color: cadetblue;
+    border-radius: .3rem;
+}
